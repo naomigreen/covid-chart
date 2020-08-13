@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/naomigreen/covid-chart.git/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/naomigreen/covid-chart.git/static/js/main.11c26aaf.chunk.js",
-    "main.js.map": "/naomigreen/covid-chart.git/static/js/main.11c26aaf.chunk.js.map",
-    "runtime-main.js": "/naomigreen/covid-chart.git/static/js/runtime-main.1aff3ed8.js",
-    "runtime-main.js.map": "/naomigreen/covid-chart.git/static/js/runtime-main.1aff3ed8.js.map",
-    "static/js/2.d1f4a790.chunk.js": "/naomigreen/covid-chart.git/static/js/2.d1f4a790.chunk.js",
-    "static/js/2.d1f4a790.chunk.js.map": "/naomigreen/covid-chart.git/static/js/2.d1f4a790.chunk.js.map",
-    "index.html": "/naomigreen/covid-chart.git/index.html",
-    "precache-manifest.9044701c1bcf995f22df93ebc087c740.js": "/naomigreen/covid-chart.git/precache-manifest.9044701c1bcf995f22df93ebc087c740.js",
-    "service-worker.js": "/naomigreen/covid-chart.git/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/naomigreen/covid-chart.git/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.d1f4a790.chunk.js.LICENSE.txt": "/naomigreen/covid-chart.git/static/js/2.d1f4a790.chunk.js.LICENSE.txt",
-    "static/media/bbc.png": "/naomigreen/covid-chart.git/static/media/bbc.5362c54a.png",
-    "static/media/loading.svg": "/naomigreen/covid-chart.git/static/media/loading.8f38e258.svg"
+    "main.css": "/covid-chart.git/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/covid-chart.git/static/js/main.8fcecee1.chunk.js",
+    "main.js.map": "/covid-chart.git/static/js/main.8fcecee1.chunk.js.map",
+    "runtime-main.js": "/covid-chart.git/static/js/runtime-main.bdda2536.js",
+    "runtime-main.js.map": "/covid-chart.git/static/js/runtime-main.bdda2536.js.map",
+    "static/js/2.cb157baa.chunk.js": "/covid-chart.git/static/js/2.cb157baa.chunk.js",
+    "static/js/2.cb157baa.chunk.js.map": "/covid-chart.git/static/js/2.cb157baa.chunk.js.map",
+    "index.html": "/covid-chart.git/index.html",
+    "precache-manifest.9321cf06095be376543c4ab4b49b045d.js": "/covid-chart.git/precache-manifest.9321cf06095be376543c4ab4b49b045d.js",
+    "service-worker.js": "/covid-chart.git/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/covid-chart.git/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.cb157baa.chunk.js.LICENSE.txt": "/covid-chart.git/static/js/2.cb157baa.chunk.js.LICENSE.txt",
+    "static/media/bbc.png": "/covid-chart.git/static/media/bbc.5362c54a.png",
+    "static/media/loading.svg": "/covid-chart.git/static/media/loading.8f38e258.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1aff3ed8.js",
-    "static/js/2.d1f4a790.chunk.js",
+    "static/js/runtime-main.bdda2536.js",
+    "static/js/2.cb157baa.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.11c26aaf.chunk.js"
+    "static/js/main.8fcecee1.chunk.js"
   ]
 }
