@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/covid-chart.git/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/covid-chart.git/static/js/main.8fcecee1.chunk.js",
-    "main.js.map": "/covid-chart.git/static/js/main.8fcecee1.chunk.js.map",
-    "runtime-main.js": "/covid-chart.git/static/js/runtime-main.bdda2536.js",
-    "runtime-main.js.map": "/covid-chart.git/static/js/runtime-main.bdda2536.js.map",
-    "static/js/2.cb157baa.chunk.js": "/covid-chart.git/static/js/2.cb157baa.chunk.js",
-    "static/js/2.cb157baa.chunk.js.map": "/covid-chart.git/static/js/2.cb157baa.chunk.js.map",
-    "index.html": "/covid-chart.git/index.html",
-    "precache-manifest.9321cf06095be376543c4ab4b49b045d.js": "/covid-chart.git/precache-manifest.9321cf06095be376543c4ab4b49b045d.js",
-    "service-worker.js": "/covid-chart.git/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/covid-chart.git/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.cb157baa.chunk.js.LICENSE.txt": "/covid-chart.git/static/js/2.cb157baa.chunk.js.LICENSE.txt",
-    "static/media/bbc.png": "/covid-chart.git/static/media/bbc.5362c54a.png",
-    "static/media/loading.svg": "/covid-chart.git/static/media/loading.8f38e258.svg"
+    "main.css": "/covid-chart/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/covid-chart/static/js/main.a7648586.chunk.js",
+    "main.js.map": "/covid-chart/static/js/main.a7648586.chunk.js.map",
+    "runtime-main.js": "/covid-chart/static/js/runtime-main.8ac8bd41.js",
+    "runtime-main.js.map": "/covid-chart/static/js/runtime-main.8ac8bd41.js.map",
+    "static/js/2.9a543516.chunk.js": "/covid-chart/static/js/2.9a543516.chunk.js",
+    "static/js/2.9a543516.chunk.js.map": "/covid-chart/static/js/2.9a543516.chunk.js.map",
+    "index.html": "/covid-chart/index.html",
+    "precache-manifest.2512fc546090aec5b7df37c73f276083.js": "/covid-chart/precache-manifest.2512fc546090aec5b7df37c73f276083.js",
+    "service-worker.js": "/covid-chart/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/covid-chart/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.9a543516.chunk.js.LICENSE.txt": "/covid-chart/static/js/2.9a543516.chunk.js.LICENSE.txt",
+    "static/media/bbc.png": "/covid-chart/static/media/bbc.5362c54a.png",
+    "static/media/loading.svg": "/covid-chart/static/media/loading.8f38e258.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdda2536.js",
-    "static/js/2.cb157baa.chunk.js",
+    "static/js/runtime-main.8ac8bd41.js",
+    "static/js/2.9a543516.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.8fcecee1.chunk.js"
+    "static/js/main.a7648586.chunk.js"
   ]
 }
