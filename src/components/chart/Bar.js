@@ -54,12 +54,9 @@ export default function Bar({ barData }) {
       const margin = { left: 95, right: 20, top: 20, bottom: 30 };
       const height = 475 - margin.top - margin.bottom;
       const width = getWidth();
-console.log(data);
 
       const minDate = new Date(data[0][0].date)
       const maxDate = new Date(data[data.length - 1][0].date)
-console.log(minDate);
-console.log(maxDate);
 
       const g = d3
         .select('#bar')
@@ -98,7 +95,7 @@ console.log(maxDate);
         .attr("y", 0)
         .attr("x", width / 2 - 40)
         .attr("class", "title-label")
-      title.text("Corona Virus Spread")
+        title.text("Corona Virus Spread")
 
       const dateLabel = g
         .append("text")
@@ -148,8 +145,6 @@ console.log(maxDate);
         let barLabel = g.selectAll(".bar").data(tenResults);
         let recovered = g.selectAll(".recovered").data(tenResults);
         let deaths = g.selectAll(".deaths").data(tenResults);
-        // const xAxis = g.selectAll(".x-axis")
-        // const yAxis = g.selectAll(".y-axis")
 
         cases
           .exit()
@@ -170,12 +165,6 @@ console.log(maxDate);
           .exit()
           .attr("class", "exit deaths")
           .remove();
-
-          // xAxis
-          // .remove();
-
-          // yAxis
-          // .remove();
           
         x.domain([0, d3.max(tenResults, d => d.confirmed)]);
         y.domain(tenResults.map(d => d.country));
