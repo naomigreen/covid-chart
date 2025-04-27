@@ -54,13 +54,12 @@ export default function Bar({ barData }) {
       const margin = { left: 95, right: 20, top: 20, bottom: 30 };
       const height = 475 - margin.top - margin.bottom;
       const width = getWidth();
+console.log(data);
 
-      const minDate = d3.min(data[0], d => {
-        return moment(d.date);
-      });
-      const maxDate = d3.max(data[data.length - 1], d => {
-        return moment(d.date);
-      });
+      const minDate = new Date(data[0][0].date)
+      const maxDate = new Date(data[data.length - 1][0].date)
+console.log(minDate);
+console.log(maxDate);
 
       const g = d3
         .select('#bar')
@@ -79,8 +78,8 @@ export default function Bar({ barData }) {
       const xAxis = g
         .attr("class", "x axis")
         .append("g")
-        .call(d3.axisBottom(x).ticks(d3.timeWeek.every(windowSize < 700 ? 6 : 3)))
-        .attr("transform", `translate(0,${height})`);
+        .call(d3.axisBottom(x).ticks(5))
+        .attr("transform", `translate(0, ${height})`);
 
       const y = d3
         .scaleBand()
@@ -149,6 +148,8 @@ export default function Bar({ barData }) {
         let barLabel = g.selectAll(".bar").data(tenResults);
         let recovered = g.selectAll(".recovered").data(tenResults);
         let deaths = g.selectAll(".deaths").data(tenResults);
+        // const xAxis = g.selectAll(".x-axis")
+        // const yAxis = g.selectAll(".y-axis")
 
         cases
           .exit()
@@ -170,6 +171,12 @@ export default function Bar({ barData }) {
           .attr("class", "exit deaths")
           .remove();
 
+          // xAxis
+          // .remove();
+
+          // yAxis
+          // .remove();
+          
         x.domain([0, d3.max(tenResults, d => d.confirmed)]);
         y.domain(tenResults.map(d => d.country));
 
@@ -225,9 +232,9 @@ export default function Bar({ barData }) {
 
         g.selectAll(".y.axis")
           .call(yAxis)
-          .selectAll(".domain, .tick line")
           .remove();
 
+     
         dateLabel.text(moment(data[0].date).format("D MMM"))
         casesLabel.text(`Cases: ${getTotal(data, 'confirmed').toLocaleString()}`);
         recoveredLabel.text(`Recovered: ${getTotal(data, 'recovered').toLocaleString()}`);
